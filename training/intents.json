@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "how are you"],
+      "responses": ["Hello! How can I help you?", "Hi! What can I do for you?"]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["how much does it cost", "price", "pricing", "what are your plans", "subscription cost", "monthly fee"],
+      "responses": ["Our plans start at $19/month.", "We offer $19, $49, and $99 monthly plans."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["refund", "money back", "cancel and refund", "can I get my money back", "refund policy"],
+      "responses": ["Refunds are available within 14 days of purchase."]
+    },
+    {
+      "tag": "support",
+      "patterns": ["I need help", "support", "technical problem", "app not working", "I have an issue", "something is broken"],
+      "responses": ["Please describe your issue and our support team will help."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "talk later", "thanks bye"],
+      "responses": ["Goodbye!", "See you later!"]
+    }
+  ]
+}
